@@ -125,7 +125,7 @@ textarea {
 input,
 textarea { width: 100%; }
 
-button { cursor: pointer; }
+/* button { cursor: pointer; } */
 
 ion-icon { pointer-events: none; }
 
@@ -196,10 +196,10 @@ body.nav-active { overflow: hidden; }
 .h4 { font-size: var(--fs-4); }
 
 .btn {
-  color: var(--cinnamon-satin);
+ /* color: var(--cinnamon-satin); */
   font-size: var(--fs-6);
   font-weight: var(--fw-700);
-  border: 2px solid var(--cinnamon-satin);
+  /* border: 2px solid var(--cinnamon-satin);*/
   max-width: max-content;
   padding: 12px 28px;
   border-radius: var(--radius-pill);
@@ -211,7 +211,7 @@ body.nav-active { overflow: hidden; }
 
 .btn-primary,
 .btn-secondary:is(:hover, :focus-visible) {
-  background-color: var(--cinnamon-satin);
+  /* background-color: var(--cinnamon-satin);*/
   color: var(--white);
 }
 
